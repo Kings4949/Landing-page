@@ -1,0 +1,200 @@
+body{
+    font-family:'roboto', arial;
+    margin:0;
+    padding:0;
+    font-size:18px;
+    background:#f5f5f5;
+}
+.header-logo img{
+    width:80px;
+    height:80px;
+    margin-right:auto;
+    border:1px solid #1f2937;
+    object-fit:cover;
+    
+}
+
+.navbar{
+    background:#1f2937;
+    display:flex;
+    border-bottom:1px solid orange;
+    padding:10px 10px 1px 100px;
+    align-items:center;
+}
+.header-link ul{
+    list-style:none;
+    display:flex;
+    gap:20px;
+    padding:0 100px 10px 10px;
+}
+.header-link{
+    margin-left:auto;
+}
+.header-link ul a{
+    color:#e5e7eb;
+    text-decoration:none;
+}
+.header-link ul a:hover{
+    font-size:15px;
+    font-family: sans-serif;
+    color:#fff;
+}
+.header-link ul a:hover{
+    color:orange;
+    cursor:pointer;
+}
+.hero-area.hero-section{
+    background:#1f2937;
+    display:flex;
+    padding:100px;
+    gap:50px;
+    align-items:center;
+    justify-content:center;
+}
+
+
+.hero-image img{
+    width:500px;
+    height:350px;
+    border:1px solid #1f2937;
+    object-fit:cover;
+}
+.hero-text.hero-sub{
+    flex-basis:450px;
+    display:flex;
+    flex-direction:column;
+    text-align:left;
+}
+.hero-sub h1{
+    font-size:48px;
+    color:#f9faf8;
+    font-weight: 800;
+    margin:0;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.2);
+}
+.hero-sub p{
+    color:#e5e7eb;
+    opacity:0.8;
+    margin-top:0;
+}
+.hero-sub button{
+    display:block;
+    text-align:center;
+    width:110px;
+    color:white;
+    opacity:0.8;
+    font-size:18px;
+    padding:8px;
+    background:#3882f6;
+    border:none;
+    border-radius:8px;
+    font-weight:bold;
+}
+.hero-sub button:hover{
+    color:blue;
+    background:white;
+    font-weight:100;
+    padding:10px 10px;
+    box-shadow: 3px 2px 3px rgba(255, 255, 255, 0.4);
+    cursor:pointer;
+}
+.content-info{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+}
+.content-info img{
+    width:200px;
+    height:200px;
+    object-fit:cover;
+    border:3px solid #3882F6;
+    border-radius:15px;
+    outline:1px solid black;
+    outline-offset:-8px;
+   
+}
+.subtext{
+    width:170px;
+    color:#1f2937;
+    margin:auto;
+    text-align:center;
+}
+.content-details h2{
+    text-align:center;
+    font-size:36px;
+    color:#1f2937;
+    font-weight:800;
+}
+.content.content-details{
+    align-items:center;
+    padding-bottom:20px;
+    background:#f0f0f0;
+}
+.inspire.quote{
+    padding:70px;
+    background:#e5e7eb;
+    display:flex;
+    flex-direction:column;
+}
+.quote p{
+    font-size:36px;
+    font-style:italic;
+    font-weight:lighter;
+    color:#1f2937;
+    width:67%;
+    margin:auto;
+}
+.quote b{
+    text-indent:65%;
+    color:#1f2937;
+    font-size:18px;
+}
+.wrapper{
+    display:flex;
+    flex-direction:column;
+}
+.cx.action-area{
+    background:#3882f6;
+    display:flex;
+    padding:10px 100px;
+    align-items:center;
+    margin:50px 200px;
+    border-radius:8px;
+    border-color:none;
+}
+.sign-up{
+    text-align:left;
+}
+.sign-up p{
+    color:#fff;
+    opacity:0.75;
+    margin:0px 60px 30px 50px;
+}
+.sign-up h3{
+    color:#fff;
+    padding:0;
+    margin:15px 10px 0 50px;
+}
+.sign-button button{
+    color:#fff;
+    border-color:#fff;
+    border-radius:8px;
+    background:#3882f6;
+    padding:5px 25px;
+    font-size:15px;
+    box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.4);
+}
+.sign-button button:hover{
+    color:blue;
+    background:white;
+    font-size:20px;
+    font-weight:bold;
+    cursor:pointer;
+}
+.footer{
+    background:#1f2937;
+    text-align:center;
+    color:#fff;
+    padding:15px;
+}
